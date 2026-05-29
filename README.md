@@ -21,13 +21,11 @@ I built YouPreserver because I did not want years of milestones and memories to 
 
 The first version was built quickly as a practical preservation experiment. The goal was not to create a SaaS. The goal was to solve my own problem and open-source the system for other people who may need the same thing.
 
-Built by **Roktim Saha** — [https://roktimsaha.com](https://roktimsaha.com)
+Built by **[Roktim Saha](https://roktimsaha.com)**
 
 ## Engineer Behind YouPreserver
 
-YouPreserver was built by **Roktim Saha**, an entrepreneur and developer who builds web products, automation tools, AI systems, and open-source experiments.
-
-Website: [https://roktimsaha.com](https://roktimsaha.com)
+YouPreserver was built by **[Roktim Saha](https://roktimsaha.com)**, an entrepreneur and developer who builds web products, automation tools, AI systems, and open-source experiments.
 
 ## Key Features
 
@@ -281,7 +279,7 @@ It was built because years of milestones, memories, stories, highlights, and pho
 
 ### Who built YouPreserver?
 
-YouPreserver was built by Roktim Saha — [https://roktimsaha.com](https://roktimsaha.com)
+YouPreserver was built by [Roktim Saha](https://roktimsaha.com).
 
 ### Can I use YouPreserver to back up my Instagram profile?
 
@@ -349,4 +347,4 @@ The Chrome extension in `chrome-extension/` is licensed under **MIT** (see `chro
 
 ## Summary
 
-YouPreserver is an open-source social media backup and profile archive project created by Roktim Saha for authorized content preservation, metadata export, and Instagram-style archive pages on your own domain. It helps you backup Instagram photos and videos, import highlight archives, and build a profile mirror page you control. Use it responsibly, only for accounts you own or are permitted to archive.
+YouPreserver is an open-source social media backup and profile archive project created by [Roktim Saha](https://roktimsaha.com) for authorized content preservation, metadata export, and Instagram-style archive pages on your own domain. It helps you backup Instagram photos and videos, import highlight archives, and build a profile mirror page you control. Use it responsibly, only for accounts you own or are permitted to archive.
