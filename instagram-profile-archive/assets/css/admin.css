@@ -1,0 +1,607 @@
+/**
+ * YouPreserver — Admin Styles
+ */
+
+.ipa-admin-wrap {
+	max-width: 1100px;
+}
+
+.ipa-admin-subtitle {
+	color: #646970;
+	margin-top: -8px;
+	margin-bottom: 20px;
+}
+
+/* Dashboard cards */
+.ipa-dashboard-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 16px;
+	margin-bottom: 24px;
+}
+
+.ipa-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 8px;
+	padding: 16px 20px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.ipa-card-label {
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #646970;
+	margin-bottom: 6px;
+}
+
+.ipa-card-value {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	color: #1d2327;
+	line-height: 1.3;
+}
+
+.ipa-card-status.ipa-status-connected .ipa-card-value,
+.ipa-card-status.ipa-status-configured .ipa-card-value {
+	color: #00a32a;
+}
+
+.ipa-card-status.ipa-status-expired .ipa-card-value,
+.ipa-card-status.ipa-status-disconnected .ipa-card-value {
+	color: #d63638;
+}
+
+.ipa-card-status.ipa-status-mock .ipa-card-value {
+	color: #2271b1;
+}
+
+/* Tabs */
+.ipa-nav-tabs {
+	margin-bottom: 0;
+}
+
+.ipa-tab-content {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-top: none;
+	border-radius: 0 0 8px 8px;
+	padding: 0;
+	margin-bottom: 24px;
+}
+
+/* Panels */
+.ipa-panel {
+	padding: 24px;
+}
+
+.ipa-panel h2 {
+	margin-top: 0;
+	font-size: 18px;
+}
+
+.ipa-panel-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.ipa-panel-header h2,
+.ipa-panel-header h3 {
+	margin: 0;
+}
+
+/* Forms */
+.ipa-password-field {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	max-width: 480px;
+}
+
+.ipa-password-field input {
+	flex: 1;
+}
+
+.ipa-inline-form {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: 8px;
+	flex-wrap: wrap;
+}
+
+.ipa-sync-actions {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+	margin-top: 24px;
+	padding-top: 24px;
+	border-top: 1px solid #dcdcde;
+}
+
+.ipa-btn-sync {
+	min-width: 160px;
+}
+
+/* Logs */
+.ipa-logs-table {
+	margin-top: 16px;
+}
+
+.ipa-logs-table td,
+.ipa-logs-table th {
+	vertical-align: top;
+}
+
+.ipa-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: capitalize;
+	background: #f0f0f1;
+	color: #50575e;
+}
+
+.ipa-badge-success,
+.ipa-badge-running {
+	background: #edfaef;
+	color: #007017;
+}
+
+.ipa-badge-failed,
+.ipa-badge-error {
+	background: #fcf0f1;
+	color: #8a1114;
+}
+
+.ipa-error-box {
+	background: #fcf0f1;
+	border: 1px solid #f1aeb5;
+	border-radius: 6px;
+	padding: 12px 16px;
+	margin-bottom: 16px;
+}
+
+.ipa-error-box p {
+	margin: 4px 0 0;
+}
+
+/* Tools */
+.ipa-tools-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 16px;
+	margin-bottom: 24px;
+}
+
+.ipa-tool-card {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.ipa-tool-card h3 {
+	margin: 0 0 8px;
+	font-size: 15px;
+}
+
+.ipa-tool-card p {
+	margin: 0 0 16px;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.ipa-tool-danger {
+	border-color: #f1aeb5;
+	background: #fffbfb;
+}
+
+.ipa-danger-check {
+	display: block;
+	margin-bottom: 12px;
+	font-size: 13px;
+}
+
+.ipa-uninstall-option {
+	padding-top: 24px;
+	border-top: 1px solid #dcdcde;
+}
+
+.ipa-uninstall-option label {
+	display: block;
+	margin-bottom: 12px;
+}
+
+/* Footer */
+.ipa-admin-footer {
+	color: #646970;
+	font-size: 13px;
+}
+
+.ipa-admin-footer a {
+	text-decoration: none;
+}
+
+.ipa-admin-credit {
+	margin-top: 8px;
+}
+
+.ipa-hidden {
+	display: none !important;
+}
+
+.ipa-connect-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 8px;
+}
+
+.ipa-btn-connect {
+	background: linear-gradient(45deg, #ff9a2e, #F57600, #c95600, #F57600, #c95600) !important;
+	border: none !important;
+	color: #fff !important;
+}
+
+.ipa-copy-uri {
+	display: inline-block;
+	max-width: 100%;
+	padding: 6px 8px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	word-break: break-all;
+}
+
+.ipa-connected-card {
+	margin-top: 24px;
+	padding: 20px;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	background: #f6f7f7;
+}
+
+.ipa-connected-card-active {
+	background: #f0f6fc;
+	border-color: #c5d9ed;
+}
+
+.ipa-connected-card h3 {
+	margin-top: 0;
+}
+
+.ipa-help-box {
+	margin: 0 0 20px;
+	padding: 16px 18px;
+	border: 1px solid #c5d9ed;
+	border-radius: 8px;
+	background: #f0f6fc;
+}
+
+.ipa-help-box ol {
+	margin: 8px 0 8px 18px;
+}
+
+.ipa-help-box li {
+	margin-bottom: 6px;
+}
+
+.ipa-connected-table th {
+	width: 180px;
+	font-weight: 600;
+}
+
+.ipa-connection-tools {
+	margin-top: 20px;
+	display: grid;
+	gap: 12px;
+}
+
+.ipa-oauth-debug {
+	margin-top: 20px;
+	padding: 14px 16px;
+	background: #fff8e5;
+	border: 1px solid #f0b849;
+	border-radius: 6px;
+}
+
+.ipa-oauth-debug h3 {
+	margin-top: 0;
+	font-size: 14px;
+	color: #8a6d3b;
+}
+
+.ipa-oauth-debug pre {
+	margin: 0;
+	white-space: pre-wrap;
+	word-break: break-word;
+	font-size: 12px;
+	max-height: 200px;
+	overflow: auto;
+}
+
+.ipa-security-info {
+	margin: 0 0 20px;
+	padding: 14px 18px;
+	border: 1px solid #00a32a;
+	background: #f0faf2;
+	border-radius: 6px;
+}
+
+.ipa-security-info ul {
+	margin: 8px 0 0 18px;
+}
+
+.ipa-security-info li {
+	margin-bottom: 4px;
+}
+
+.ipa-audit-log {
+	margin-top: 28px;
+}
+
+.ipa-audit-log h3 {
+	margin-bottom: 10px;
+}
+
+/* Highlights tab */
+.ipa-highlights-stats {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin: 16px 0 8px;
+}
+
+.ipa-highlights-stat {
+	flex: 1 1 180px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 14px 16px;
+}
+
+.ipa-highlights-stat-label {
+	display: block;
+	font-size: 12px;
+	color: #646970;
+	margin-bottom: 4px;
+}
+
+.ipa-highlights-stat-value {
+	font-size: 20px;
+	line-height: 1.2;
+	color: #1d2327;
+}
+
+/* Highlights import progress */
+.ipa-highlights-import-layout {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+	gap: 24px;
+	align-items: start;
+	margin-top: 8px;
+}
+
+.ipa-highlights-import-progress {
+	background: #f6f7f7;
+	border: 1px solid #c3c4c7;
+	border-radius: 8px;
+	padding: 16px 18px;
+	min-height: 220px;
+}
+
+.ipa-highlights-import-progress h3 {
+	margin: 0 0 12px;
+	font-size: 14px;
+}
+
+.ipa-import-progress-track {
+	height: 10px;
+	background: #dcdcde;
+	border-radius: 999px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.ipa-import-progress-bar {
+	height: 100%;
+	width: 0;
+	background: #F57600;
+	border-radius: 999px;
+	transition: width 0.25s ease;
+}
+
+.ipa-import-progress-bar.is-indeterminate {
+	width: 35% !important;
+	transition: none;
+	animation: ipa-import-indeterminate 1.2s ease-in-out infinite;
+}
+
+@keyframes ipa-import-indeterminate {
+	0% {
+		transform: translateX(-120%);
+	}
+	100% {
+		transform: translateX(320%);
+	}
+}
+
+.ipa-import-progress-status {
+	margin: 0 0 12px;
+	font-size: 13px;
+	color: #1d2327;
+}
+
+.ipa-import-log {
+	max-height: 320px;
+	overflow-y: auto;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 10px 12px;
+	font-family: Consolas, Monaco, monospace;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.ipa-import-log-line {
+	padding: 2px 0;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.ipa-import-log-line:last-child {
+	border-bottom: none;
+}
+
+.ipa-import-log-success {
+	color: #007017;
+}
+
+.ipa-import-log-warning {
+	color: #996800;
+}
+
+.ipa-import-log-error {
+	color: #b32d2e;
+}
+
+.ipa-import-log-info {
+	color: #50575e;
+}
+
+@media (max-width: 960px) {
+	.ipa-highlights-import-layout {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Delete tab */
+.ipa-delete-section {
+	margin-top: 28px;
+	padding-top: 24px;
+	border-top: 1px solid #dcdcde;
+}
+
+.ipa-delete-section:first-of-type {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: 0;
+}
+
+.ipa-delete-section .ipa-panel-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+
+.ipa-delete-count {
+	color: #646970;
+	font-size: 13px;
+}
+
+.ipa-delete-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 12px;
+}
+
+.ipa-delete-attachment-option {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 13px;
+}
+
+.ipa-delete-table .check-column {
+	width: 2.2em;
+}
+
+.ipa-delete-thumb-cell {
+	width: 72px;
+}
+
+.ipa-delete-thumb {
+	display: block;
+	width: 56px;
+	height: 56px;
+	object-fit: cover;
+	border-radius: 6px;
+	background: #f0f0f1;
+}
+
+.ipa-delete-thumb-empty {
+	border: 1px solid #dcdcde;
+}
+
+.ipa-delete-all-form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 12px;
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px solid #ececec;
+}
+
+.ipa-delete-section-danger {
+	background: #fffbfb;
+	border: 1px solid #f1aeb5;
+	border-radius: 8px;
+	padding: 18px 20px;
+}
+
+.ipa-delete-section-danger h3 {
+	margin: 0 0 8px;
+}
+
+.ipa-delete-section-danger p {
+	margin: 0 0 12px;
+	color: #646970;
+}
+
+.ipa-pinned-posts-panel {
+	margin-top: 24px;
+}
+
+.ipa-pinned-posts-hint {
+	margin: 0 0 12px;
+	color: #646970;
+}
+
+.ipa-pinned-posts-table .ipa-delete-thumb-cell {
+	position: relative;
+}
+
+.ipa-pinned-badge {
+	display: inline-block;
+	margin-top: 4px;
+	padding: 2px 6px;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.3;
+	color: #1d2327;
+	background: #f0f0f1;
+	border-radius: 3px;
+}
+
+@media (max-width: 782px) {
+	.ipa-dashboard-cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>YouPreserver Highlights</title>
+	<link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+	<header>
+		<h1>YouPreserver</h1>
+		<p>Export highlights for YouPreserver</p>
+	</header>
+	<main>
+		<p id="status" class="status">Open your Instagram profile page, then click Start.</p>
+		<div id="progress-wrap" class="progress-wrap" hidden>
+			<div class="progress-track">
+				<div id="progress-bar" class="progress-bar"></div>
+			</div>
+			<p id="progress-text" class="progress-text"></p>
+		</div>
+		<button type="button" id="start-btn" class="primary">Start</button>
+		<pre id="log" class="log" hidden></pre>
+	</main>
+	<footer class="popup-credit">
+		Built by <a href="https://roktimsaha.com" target="_blank" rel="noopener">Roktim Saha</a> ·
+		<a href="https://roktimsaha.com" target="_blank" rel="noopener">roktimsaha.com</a>
+	</footer>
+	<script src="popup.js"></script>
+</body>
+</html>

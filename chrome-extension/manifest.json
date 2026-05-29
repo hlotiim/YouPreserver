@@ -1,0 +1,25 @@
+{
+	"manifest_version": 3,
+	"name": "YouPreserver Highlights Exporter",
+	"description": "Export Instagram story highlights as a ZIP for the YouPreserver WordPress plugin.",
+	"version": "1.0.6",
+	"action": {
+		"default_title": "YouPreserver Highlights",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["activeTab", "scripting"],
+	"host_permissions": [
+		"https://www.instagram.com/*",
+		"https://i.instagram.com/*",
+		"https://*.cdninstagram.com/*",
+		"https://*.fbcdn.net/*"
+	],
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	}
+}

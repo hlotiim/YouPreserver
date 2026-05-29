@@ -1,0 +1,361 @@
+/**
+ * YouPreserver — Admin Styles
+ */
+
+.ipa-admin-wrap {
+	max-width: 1100px;
+}
+
+.ipa-admin-subtitle {
+	color: #646970;
+	margin-top: -8px;
+	margin-bottom: 20px;
+}
+
+/* Dashboard cards */
+.ipa-dashboard-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 16px;
+	margin-bottom: 24px;
+}
+
+.ipa-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 8px;
+	padding: 16px 20px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.ipa-card-label {
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #646970;
+	margin-bottom: 6px;
+}
+
+.ipa-card-value {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	color: #1d2327;
+	line-height: 1.3;
+}
+
+.ipa-card-status.ipa-status-connected .ipa-card-value,
+.ipa-card-status.ipa-status-configured .ipa-card-value {
+	color: #00a32a;
+}
+
+.ipa-card-status.ipa-status-expired .ipa-card-value,
+.ipa-card-status.ipa-status-disconnected .ipa-card-value {
+	color: #d63638;
+}
+
+.ipa-card-status.ipa-status-mock .ipa-card-value {
+	color: #2271b1;
+}
+
+/* Tabs */
+.ipa-nav-tabs {
+	margin-bottom: 0;
+}
+
+.ipa-tab-content {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-top: none;
+	border-radius: 0 0 8px 8px;
+	padding: 0;
+	margin-bottom: 24px;
+}
+
+/* Panels */
+.ipa-panel {
+	padding: 24px;
+}
+
+.ipa-panel h2 {
+	margin-top: 0;
+	font-size: 18px;
+}
+
+.ipa-panel-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.ipa-panel-header h2 {
+	margin: 0;
+}
+
+/* Forms */
+.ipa-password-field {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	max-width: 480px;
+}
+
+.ipa-password-field input {
+	flex: 1;
+}
+
+.ipa-inline-form {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: 8px;
+	flex-wrap: wrap;
+}
+
+.ipa-sync-actions {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+	margin-top: 24px;
+	padding-top: 24px;
+	border-top: 1px solid #dcdcde;
+}
+
+.ipa-btn-sync {
+	min-width: 160px;
+}
+
+/* Logs */
+.ipa-logs-table {
+	margin-top: 16px;
+}
+
+.ipa-logs-table td,
+.ipa-logs-table th {
+	vertical-align: top;
+}
+
+.ipa-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: capitalize;
+	background: #f0f0f1;
+	color: #50575e;
+}
+
+.ipa-badge-success,
+.ipa-badge-running {
+	background: #edfaef;
+	color: #007017;
+}
+
+.ipa-badge-failed,
+.ipa-badge-error {
+	background: #fcf0f1;
+	color: #8a1114;
+}
+
+.ipa-error-box {
+	background: #fcf0f1;
+	border: 1px solid #f1aeb5;
+	border-radius: 6px;
+	padding: 12px 16px;
+	margin-bottom: 16px;
+}
+
+.ipa-error-box p {
+	margin: 4px 0 0;
+}
+
+/* Tools */
+.ipa-tools-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 16px;
+	margin-bottom: 24px;
+}
+
+.ipa-tool-card {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.ipa-tool-card h3 {
+	margin: 0 0 8px;
+	font-size: 15px;
+}
+
+.ipa-tool-card p {
+	margin: 0 0 16px;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.ipa-tool-danger {
+	border-color: #f1aeb5;
+	background: #fffbfb;
+}
+
+.ipa-danger-check {
+	display: block;
+	margin-bottom: 12px;
+	font-size: 13px;
+}
+
+.ipa-uninstall-option {
+	padding-top: 24px;
+	border-top: 1px solid #dcdcde;
+}
+
+.ipa-uninstall-option label {
+	display: block;
+	margin-bottom: 12px;
+}
+
+/* Footer */
+.ipa-admin-footer {
+	color: #646970;
+	font-size: 13px;
+}
+
+.ipa-admin-footer a {
+	text-decoration: none;
+}
+
+.ipa-admin-credit {
+	margin-top: 8px;
+}
+
+.ipa-hidden {
+	display: none !important;
+}
+
+.ipa-connect-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 8px;
+}
+
+.ipa-btn-connect {
+	background: linear-gradient(45deg, #ff9a2e, #F57600, #c95600, #F57600, #c95600) !important;
+	border: none !important;
+	color: #fff !important;
+}
+
+.ipa-copy-uri {
+	display: inline-block;
+	max-width: 100%;
+	padding: 6px 8px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	word-break: break-all;
+}
+
+.ipa-connected-card {
+	margin-top: 24px;
+	padding: 20px;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	background: #f6f7f7;
+}
+
+.ipa-connected-card-active {
+	background: #f0f6fc;
+	border-color: #c5d9ed;
+}
+
+.ipa-connected-card h3 {
+	margin-top: 0;
+}
+
+.ipa-help-box {
+	margin: 0 0 20px;
+	padding: 16px 18px;
+	border: 1px solid #c5d9ed;
+	border-radius: 8px;
+	background: #f0f6fc;
+}
+
+.ipa-help-box ol {
+	margin: 8px 0 8px 18px;
+}
+
+.ipa-help-box li {
+	margin-bottom: 6px;
+}
+
+.ipa-connected-table th {
+	width: 180px;
+	font-weight: 600;
+}
+
+.ipa-connection-tools {
+	margin-top: 20px;
+	display: grid;
+	gap: 12px;
+}
+
+.ipa-oauth-debug {
+	margin-top: 20px;
+	padding: 14px 16px;
+	background: #fff8e5;
+	border: 1px solid #f0b849;
+	border-radius: 6px;
+}
+
+.ipa-oauth-debug h3 {
+	margin-top: 0;
+	font-size: 14px;
+	color: #8a6d3b;
+}
+
+.ipa-oauth-debug pre {
+	margin: 0;
+	white-space: pre-wrap;
+	word-break: break-word;
+	font-size: 12px;
+	max-height: 200px;
+	overflow: auto;
+}
+
+.ipa-security-info {
+	margin: 0 0 20px;
+	padding: 14px 18px;
+	border: 1px solid #00a32a;
+	background: #f0faf2;
+	border-radius: 6px;
+}
+
+.ipa-security-info ul {
+	margin: 8px 0 0 18px;
+}
+
+.ipa-security-info li {
+	margin-bottom: 4px;
+}
+
+.ipa-audit-log {
+	margin-top: 28px;
+}
+
+.ipa-audit-log h3 {
+	margin-bottom: 10px;
+}
+
+@media (max-width: 782px) {
+	.ipa-dashboard-cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}
