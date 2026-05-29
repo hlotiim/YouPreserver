@@ -1,6 +1,6 @@
-# Instagram Profile Highlights Downloader with Metadata ZIP Export
+# Instagram Profile All Highlight With Meta Data Downloader As A Zip
 
-Instagram Profile Highlights Downloader is a utility module designed to download and preserve Instagram profile highlight media along with structured metadata in a single organized ZIP file. It helps users archive highlight stories, media files, captions, timestamps, cover details, and related profile information in a clean, portable format.
+Instagram Profile All Highlight With Meta Data Downloader As A Zip is a utility module designed to download and preserve Instagram profile highlight media along with structured metadata in a single organized ZIP file. It helps users archive highlight stories, media files, captions, timestamps, cover details, and related profile information in a clean, portable format.
 
 This module is useful for developers, creators, agencies, researchers, and digital archivists who need a structured way to back up Instagram highlight content for authorized accounts, personal archives, content migration, portfolio preservation, or social media data management workflows.
 

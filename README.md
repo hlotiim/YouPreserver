@@ -126,7 +126,7 @@ Metadata availability depends on the source, API, export file, or import method 
 
 ## Related Module
 
-**Instagram Profile All Highlight with Metadata Downloader as a ZIP**
+**Instagram Profile All Highlight With Meta Data Downloader As A Zip**
 
 GitHub: [https://github.com/hlotiim/instagram-profile-all-highlight-with-meta-data-downloader-as-a-zip](https://github.com/hlotiim/instagram-profile-all-highlight-with-meta-data-downloader-as-a-zip)
 
