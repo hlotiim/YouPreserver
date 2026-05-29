@@ -104,7 +104,7 @@ Media files live under `files/covers/` and `files/media/`. All paths in JSON are
 
 ## WordPress import (YouPreserver)
 
-Upload the exported ZIP in the [YouPreserver](https://roktimsaha.com) WordPress plugin:
+Upload the exported ZIP in the [YouPreserver](https://github.com/hlotiim/YouPreserver) WordPress plugin:
 
 **WordPress admin → YouPreserver → Highlights → Import Highlights ZIP**
 
